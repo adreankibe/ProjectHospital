@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Medical History</title>
+    <style type="text/css">
+      body
+{
+  display: flex;
+
+}
+
+.MedicalHistory
+{
+  align-items: flex-end;
+  padding-left: 20px;
+
+}
+
+.PatientInfo
+{
+  background-color: grey;
+  padding: 30px;
+  min-height:800px;
+}
+
+h1
+{
+  text-align: center;
+}
+
+.MedicalSummary
+{
+  border-width: 2px;
+  border-color: black;
+  padding: 5px 20px;
+  flex-grow: 2;
+  flex-direction: column;
+}
+
+.details
+{
+  display: flex;
+  flex-direction: column;
+}
+
+    </style>
+    <link rel="stylesheet" href="MedicalHistory.css">
+  </head>
+  <body>
+    <div class="PatientInfo">
+      <img src="#" alt="*Patient Profile Picture">
+      <h2>*Patient Name</h2>
+      <span>*Patient Age <br></span>
+      <span>*Patient Gender</span>
+    </div>
+
+
+    <div class="details">
+      <div class="MedicalHistory">
+        <h1>Medical History</h1>
+      </div>
+
+      <div class="MedicalSummary">
+        <h3>Medical History Summary</h3>
+        <span>*Insert Summary here...</span>
+
+      </div>
+
+      <div class="MedicalSummary">
+        <h3>Detailed Medical History</h3>
+        <span>*Insert Medical History here...</span>
+
+      </div>
+
+    </div>
+
+
+
+
+  </body>
+</html>
